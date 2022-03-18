@@ -79,7 +79,7 @@ success:function(data)
           <form class="" method="post">
             
             <div class="form-group">
-              <label for="sub" class="cols-sm-2 control-label">Last Name</label>
+              <label for="sub" class="cols-sm-2 control-label">First Name</label>
               <div class="cols-sm-4">
                 <div class="input-group">
         <input type="text" class="form-control" style="text-transform: capitalize;" id="fname" name="fname" placeholder="Enter Firstname" required>
@@ -87,7 +87,7 @@ success:function(data)
               </div>
             </div>
             <div class="form-group">
-              <label for="sub" class="cols-sm-2 control-label">First Name</label>
+              <label for="sub" class="cols-sm-2 control-label">Last Name</label>
               <div class="cols-sm-4">
                 <div class="input-group">
         <input type="text" class="form-control" style="text-transform: capitalize;" id="fname" name="lname" placeholder="Enter Firstname" required>
@@ -116,8 +116,10 @@ success:function(data)
                 <div class="input-group">
         <select class="form-control" name="type" id="sel1" required>
         <option></option>
-          <option value="ADMINISTRATOR">ADMINISTRATOR</option>
-          <option value="STAFF">STAFF</option>n>
+          <option value="Adminstrator">Administrator</option>
+          <option value="School Head">School Head</option>
+          <option value="Class Adviser">Class Adviser</option>
+          <option value="Subject Teacher">Subject Teacher</option>n>
         </select>                </div>
               </div>
             </div>
