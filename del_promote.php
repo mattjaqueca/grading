@@ -12,4 +12,4 @@ $query =mysqli_query($conn,"DELETE FROM promotion_candidates where STUDENT_ID='$
 if($query){
 	echo 'true';
 }
-?>
+?> 
